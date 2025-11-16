@@ -80,8 +80,8 @@ To run this project locally, please follow these steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [YOUR_REPOSITORY_URL]
-    cd [YOUR_REPOSITORY_NAME]
+    git clone https://github.com/MDDR2K4/Week-1
+    cd Week-1
     ```
 
 2.  **Create and activate a virtual environment:**
@@ -127,22 +127,28 @@ There are two main parts to this project: training the model and running the web
 
 ### Model Performance and Results
 
-**[TODO: UPDATE THIS SECTION WITH YOUR FINAL VALUES AFTER TRAINING]**
-
 The model was trained for **10 epochs** and achieved the following performance on the validation set:
 
--   **Final Validation Accuracy:** `[TODO: Enter your final validation accuracy, e.g., 92.5%]`
--   **Final Validation Loss:** `[TODO: Enter your final validation loss, e.g., 0.21]`
+-   **Final Validation Accuracy:91.52** 
+-   **Final Validation Loss:0.2628** 
 
 **Training History:**
 
 Below is the plot showing the model's accuracy and loss over the training epochs.
 
-`[TODO: Insert the screenshot of your training history plot here. You can save it from the Jupyter Notebook output.]`
+[images/Screenshot 2025-11-16 202654.png]
 
 ![Training History]([PATH_TO_YOUR_PLOT_IMAGE])
 
 ---
+### Output (Screenshots)
+
+
+**1. Main Application Page**
+![App Home Page]([PATH_TO_YOUR_HOME_PAGE_SCREENSHOT])
+
+**2. Prediction Result Page**
+![App Prediction Page]([PATH_TO_YOUR_PREDICTION_RESULT_SCREENSHOT])
 
 ### Future Improvements
 
@@ -156,8 +162,8 @@ Below is the plot showing the model's accuracy and loss over the training epochs
 ### Author
 
 - **M Deeraj D Rao**
-- **GitHub:https://github.com/MDDR2K4** `[Link to your GitHub profile]`
-- **LinkedIn:https://www.linkedin.com/in/mdeerajdrao** `[Link to your LinkedIn profile]`
+- **GitHub:`https://github.com/MDDR2K4`** 
+- **LinkedIn:`https://www.linkedin.com/in/mdeerajdrao`** 
 
 
 ### License
