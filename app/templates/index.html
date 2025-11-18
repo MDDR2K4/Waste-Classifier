@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waste Classifier</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
+        .container { max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ccc; border-radius: 10px; }
+        img { max-width: 100%; height: auto; margin-top: 20px; }
+        h1, h2 { color: #333; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Waste Classification AI</h1>
+        <p>Upload an image of waste, and the AI will predict its category.</p>
+        <form id="upload-file" method="post" action="/predict" enctype="multipart/form-data">
+            <input type="file" name="file" id="imageUpload" accept=".png, .jpg, .jpeg">
+            <button type="submit">Predict</button>
+        </form>
+
+        {% if prediction %}
+        <div id="result">
+            <h2>Prediction: <strong>{{ prediction }}</strong></h2>
+            <img src="{{ image_path }}" alt="Uploaded Image">
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
