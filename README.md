@@ -2,7 +2,8 @@
 
 This project is an end-to-end deep learning application that classifies images of waste into multiple categories. It includes a trained TensorFlow/Keras model and a web application built with Flask that allows users to upload an image and receive a prediction.
 
-![Waste Classification App Screenshot]([TODO:_INSERT_A_SCREENSHOT_OF_YOUR_WEB_APP_HERE])
+<img width="2558" height="1426" alt="Screenshot 2025-11-18 190307" src="https://github.com/user-attachments/assets/c57d48b2-05cf-4b93-85e4-9af4b3feea33" />
+
 
 ---
 
@@ -129,26 +130,25 @@ There are two main parts to this project: training the model and running the web
 
 The model was trained for **10 epochs** and achieved the following performance on the validation set:
 
--   **Final Validation Accuracy:91.52** 
--   **Final Validation Loss:0.2628** 
+-   **Final Validation Accuracy:91.02** 
+-   **Final Validation Loss:0.2787** 
 
 **Training History:**
 
 Below is the plot showing the model's accuracy and loss over the training epochs.
 
-([images/Screenshot 2025-11-16 202654.png])
-
-![Training History]([images/Screenshot 2025-11-16 202654.png])
+<img width="836" height="838" alt="image" src="https://github.com/user-attachments/assets/e946065c-46c3-40b1-9911-3ecfbc495681" />
 
 ---
-### Output (Screenshots)
+### Output
 
 
 **1. Main Application Page**
-![App Home Page]([PATH_TO_YOUR_HOME_PAGE_SCREENSHOT])
+<img width="1834" height="1023" alt="image" src="https://github.com/user-attachments/assets/054326f7-bf7e-4b56-8e6e-1410a85c7aa9" />
+
 
 **2. Prediction Result Page**
-![App Prediction Page]([PATH_TO_YOUR_PREDICTION_RESULT_SCREENSHOT])
+<img width="2299" height="1242" alt="Screenshot 2025-11-18 190536" src="https://github.com/user-attachments/assets/ff2052c7-c910-47d8-8849-1f8c8f6d34c4" />
 
 ### Future Improvements
 
