@@ -136,9 +136,9 @@ The model was trained for **10 epochs** and achieved the following performance o
 
 Below is the plot showing the model's accuracy and loss over the training epochs.
 
-[images/Screenshot 2025-11-16 202654.png]
+([images/Screenshot 2025-11-16 202654.png])
 
-![Training History]([PATH_TO_YOUR_PLOT_IMAGE])
+![Training History]([images/Screenshot 2025-11-16 202654.png])
 
 ---
 ### Output (Screenshots)
